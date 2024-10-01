@@ -115,3 +115,4 @@ C:\Users\ramse\source\Bank\BankTest\obj\Debug\net8.0\refint\BankTest.dll
 C:\Users\ramse\source\Bank\BankTest\obj\Debug\net8.0\BankTest.pdb
 C:\Users\ramse\source\Bank\BankTest\obj\Debug\net8.0\BankTest.genruntimeconfig.cache
 C:\Users\ramse\source\Bank\BankTest\obj\Debug\net8.0\ref\BankTest.dll
+C:\Users\ramse\source\Bank\BankTest\obj\Debug\net8.0\BankTest.sourcelink.json

@@ -28,16 +28,29 @@ namespace BankAccountNS
             get { return m_balance; }
         }
 
+        public void  DebitAmountExceedsBalanceMessage (double amount)
+        {
+            if(amount > m_balance)
+            {
+                throw new ArgumentOutOfRangeException("amount");
+            }
+            if(amount < 0)
+            {
+                throw new ArgumentOutOfRangeException("amount");
+            }
+}
+
+
         public void Debit(double amount)
         {
             if (amount > m_balance)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
             }
 
             if (amount < 0)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
             }
 
             m_balance -= amount; // intentionally incorrect code

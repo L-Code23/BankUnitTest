@@ -18,11 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Bank\\BankAccount.cs",
               "ToolTip": "C:\\Users\\ramse\\source\\Bank\\Bank\\BankAccount.cs",
               "RelativeToolTip": "Bank\\BankAccount.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIBAwDYAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T15:37:28.671Z",
               "EditorCaption": ""
@@ -45,14 +49,10 @@
               "RelativeDocumentMoniker": "BankTest\\BankAccountTest.cs",
               "ToolTip": "C:\\Users\\ramse\\source\\Bank\\BankTest\\BankAccountTest.cs",
               "RelativeToolTip": "BankTest\\BankAccountTest.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAA+wCYAAAAnAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAIBEwAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T15:40:50.797Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

@@ -4,6 +4,11 @@ namespace BankTest
     [TestClass]
     public class BankAccountTest
     {
+        public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
+        public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
+
+    
+    
         [TestMethod]
         public void Debit_WithValidAmount_UpdatesBalance()
         {
@@ -21,7 +26,7 @@ namespace BankTest
             Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
         [TestMethod]
-        public void Debit_WhenAmountIsLessThanZero()
+        public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
         {
             //Arrange
             double beginningBalance = 11.99;
@@ -39,7 +44,7 @@ namespace BankTest
             double debitAmmount = 20.00;
             BankAccount account = new BankAccount("Mr. Bob Dobolina", beginningBalance);
 
-            //Act and assert
+            // Act and assert
             Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => account.Debit(debitAmmount));
         }
     }
